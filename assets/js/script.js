@@ -27,7 +27,7 @@ var passwordCharacters = function(){
   var lowercase = "abcdefghijklmnopqrstuvwxyz"
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   var numbers = "0123456789"
-  var special_char = "!@#$%^&*()"
+  var special_char = "!@#$%^&*()+=-,./:;<>?[]_~`{}"
 
   includeLowercase = "Should the password include lowercase? Enter 1 for YES, 0 for NO.";
   chars = determineToInclude(includeLowercase, lowercase, "")
